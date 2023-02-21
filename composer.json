@@ -1,10 +1,14 @@
 {
-    "name": "philperusse/nova-column-filter",
+    "name": "ribicb/nova4-column-filter",
     "description": "A Laravel Nova column queryer filter",
     "authors": [
         {
             "name": "Phil Pérusse",
             "email": "philippe.perusse@outlook.com"
+        },
+        {
+            "name": "Bogdan Ribic",
+            "email": "bogdan@honeyfund.com"
         }
     ],
     "keywords": [
@@ -13,8 +17,8 @@
     ],
     "license": "MIT",
     "require": {
-        "php": ">=7.1.0",
-        "laravel/nova" : ">=1.3.2"
+        "php": ">=8.0.0",
+        "laravel/nova" : ">=4.0.0"
     },
     "autoload": {
         "psr-4": {
