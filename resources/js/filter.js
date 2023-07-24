@@ -1,6 +1,3 @@
-
-import ColumnFilter from './components/ColumnFilter';
-
-Nova.booting((Vue, router) => {
-    Vue.component('column-filter-selector', ColumnFilter);
+Nova.booting((Vue) => {
+    Vue.component('column-filter-selector', require('./components/ColumnFilter').default);
 });

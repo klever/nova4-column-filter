@@ -16,7 +16,7 @@ class FilterServiceProvider extends ServiceProvider
     public function boot()
     {
         Nova::serving(function (ServingNova $event) {
-            Nova::script('nova-column-filter', __DIR__.'/../dist/js/filter.js');
+            Nova::script('nova4-column-filter', __DIR__.'/../dist/js/filter.js');
         });
     }
 }

@@ -2,7 +2,6 @@
 
 namespace philperusse\Filters;
 
-use Illuminate\Http\Request;
 use Laravel\Nova\Filters\Filter;
 use Laravel\Nova\Http\Requests\NovaRequest;
 
